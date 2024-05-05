@@ -132,12 +132,10 @@ export SCW_PROFILE=reda
 # K8s aliases
 alias kctl='kubectl'
 
-
 # Ngrok autocompletions
 if command -v ngrok &>/dev/null; then
     eval "$(ngrok completion)"
 fi
-
 
 # tmux aliases
 alias t="tmux"
