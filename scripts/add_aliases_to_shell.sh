@@ -1,4 +1,4 @@
 #!/bin/bash
 
-cat ../.aliases >> ~/.bashrc
+cat .aliases >> ~/.bashrc
 source ~/.bashrc
