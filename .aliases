@@ -1,0 +1,24 @@
+# Git aliases
+alias gs="git status"
+alias gc="git commit -m"
+alias gll="git pull"
+alias gp="git push"
+alias gnb="git checkout -b"
+alias gch="git checkout"
+alias grs="git restore --staged"
+alias gr="git restore"
+alias gsa="git stash add"
+alias gsp="git stash pop"
+
+# Set up nano as default editor
+
+export EDITOR=nano
+export VISUAL="$EDITOR"
+
+# K8s aliases
+alias kctl='kubectl'
+
+# tmux aliases
+alias t="tmux"
+alias tma="tmux attach -t"
+alias tmn="tmux new -s"
