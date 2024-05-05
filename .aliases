@@ -1,3 +1,5 @@
+
+
 # Git aliases
 alias gs="git status"
 alias gc="git commit -m"
@@ -11,7 +13,6 @@ alias gsa="git stash add"
 alias gsp="git stash pop"
 
 # Set up nano as default editor
-
 export EDITOR=nano
 export VISUAL="$EDITOR"
 
