@@ -141,3 +141,4 @@ fi
 alias t="tmux"
 alias tma="tmux attach -t"
 alias tmn="tmux new -s"
+alias tls="tmux list-sessions"
