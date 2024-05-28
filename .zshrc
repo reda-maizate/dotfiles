@@ -101,25 +101,6 @@ source $ZSH/oh-my-zsh.sh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
 
-# Git aliases
-
-alias gs="git status"
-alias gc="git commit -m"
-alias gll="git pull"
-alias gp="git push"
-alias gnb="git checkout -b"
-alias gch="git checkout"
-alias grs="git restore --staged"
-alias gr="git restore"
-alias gsa="git stash add"
-alias gsp="git stash pop"
-
-# Set up nano as default editor
-
-export EDITOR=nano
-export VISUAL="$EDITOR"
-
-
 # Python aliases
 alias pip="pip3"
 alias python="python3"
@@ -131,19 +112,12 @@ alias py12="python12"
 eval "$(scw autocomplete script shell=zsh)"
 
 # Terraform aliases
-alias tf="terraform"
 export SCW_PROFILE=reda
-
-# K8s aliases
-alias kctl='kubectl'
 
 # Ngrok autocompletions
 if command -v ngrok &>/dev/null; then
     eval "$(ngrok completion)"
 fi
 
-# tmux aliases
-alias t="tmux"
-alias tma="tmux attach -t"
-alias tmn="tmux new -s"
-alias tls="tmux list-sessions"
+# Import aliases
+source .aliases
