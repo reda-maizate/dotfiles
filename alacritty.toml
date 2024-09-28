@@ -18,4 +18,12 @@ y = 0
 
 [shell]
 program = "/bin/zsh"
-args = ["-l", "-c", "tmux attach || tmux"]
+args = [
+    "-c",
+    """
+    if [ -z "$TMUX" ]; then
+        tmux attach -t TMUX || tmux new -s TMUX
+    fi
+    exec zsh
+    """
+]
