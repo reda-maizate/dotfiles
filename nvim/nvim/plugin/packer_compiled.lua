@@ -79,6 +79,11 @@ _G.packer_plugins = {
     path = "/Users/redamaizate/.local/share/nvim/site/pack/packer/start/LuaSnip",
     url = "https://github.com/L3MON4D3/LuaSnip"
   },
+  ["auto-pairs"] = {
+    loaded = true,
+    path = "/Users/redamaizate/.local/share/nvim/site/pack/packer/start/auto-pairs",
+    url = "https://github.com/jiangmiao/auto-pairs"
+  },
   ["cmp-nvim-lsp"] = {
     loaded = true,
     path = "/Users/redamaizate/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
@@ -89,10 +94,10 @@ _G.packer_plugins = {
     path = "/Users/redamaizate/.local/share/nvim/site/pack/packer/start/cmp_luasnip",
     url = "https://github.com/saadparwaiz1/cmp_luasnip"
   },
-  ["friendly-snippets"] = {
+  ["coc.nvim"] = {
     loaded = true,
-    path = "/Users/redamaizate/.local/share/nvim/site/pack/packer/start/friendly-snippets",
-    url = "https://github.com/rafamadriz/friendly-snippets"
+    path = "/Users/redamaizate/.local/share/nvim/site/pack/packer/start/coc.nvim",
+    url = "https://github.com/neoclide/coc.nvim"
   },
   ["gitsigns.nvim"] = {
     loaded = true,
@@ -168,6 +173,16 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/redamaizate/.local/share/nvim/site/pack/packer/start/vim-fugitive",
     url = "https://github.com/tpope/vim-fugitive"
+  },
+  ["vim-go"] = {
+    loaded = true,
+    path = "/Users/redamaizate/.local/share/nvim/site/pack/packer/start/vim-go",
+    url = "https://github.com/fatih/vim-go"
+  },
+  ["vim-go-syntax"] = {
+    loaded = true,
+    path = "/Users/redamaizate/.local/share/nvim/site/pack/packer/start/vim-go-syntax",
+    url = "https://github.com/charlespascoe/vim-go-syntax"
   }
 }
 

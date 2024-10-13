@@ -25,6 +25,10 @@ return require('packer').startup(function(use)
   use 'nvim-treesitter/nvim-treesitter'
   use 'lewis6991/gitsigns.nvim'
   use 'tpope/vim-fugitive'
+  use 'fatih/vim-go'
+  use {'neoclide/coc.nvim', branch = 'release'}
+  use 'jiangmiao/auto-pairs'
+  use 'charlespascoe/vim-go-syntax'
 
   -- completions
   use {
@@ -32,7 +36,6 @@ return require('packer').startup(function(use)
     "hrsh7th/cmp-nvim-lsp",
     "L3MON4D3/LuaSnip",
     "saadparwaiz1/cmp_luasnip",
-    "rafamadriz/friendly-snippets",
   }
 
   use {
