@@ -169,6 +169,11 @@ _G.packer_plugins = {
     path = "/Users/redamaizate/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
   },
+  ["tmux.nvim"] = {
+    loaded = true,
+    path = "/Users/redamaizate/.local/share/nvim/site/pack/packer/start/tmux.nvim",
+    url = "https://github.com/aserowy/tmux.nvim"
+  },
   ["vim-fugitive"] = {
     loaded = true,
     path = "/Users/redamaizate/.local/share/nvim/site/pack/packer/start/vim-fugitive",

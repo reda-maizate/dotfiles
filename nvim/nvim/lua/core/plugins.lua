@@ -29,6 +29,7 @@ return require('packer').startup(function(use)
   use {'neoclide/coc.nvim', branch = 'release'}
   use 'jiangmiao/auto-pairs'
   use 'charlespascoe/vim-go-syntax'
+  use "aserowy/tmux.nvim"
 
   -- completions
   use {
